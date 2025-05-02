@@ -20,6 +20,16 @@ const Home = () => {
       }}>
         <h1 className="display-3 fw-bold mb-3">Hi, I'm <span className="text-primary">Rithik Sai</span></h1>
         <p className="lead">Ai enthusiast and web developer</p>
+
+        {/* Social media links */}
+        <div className="d-flex gap-3 mb-4">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
+                <i className="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
+                <i className="bi bi-linkedin"></i>
+            </a>
+        </div>
       </div>
       
       {/* Image - positioned to take 55% of width and overlap slightly */}
