@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="md" fixed="top" className="bg-opacity-50">
       <Container>
-        <Navbar.Brand href="#home">Your Name</Navbar.Brand>
+        <Navbar.Brand href="#home">Rithik Sai</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
