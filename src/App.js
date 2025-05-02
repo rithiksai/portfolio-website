@@ -3,24 +3,15 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Header from './components/Header';
 import Home from './components/Home';
+import About from './components/About';
 
 function App() {
   return (
     <div>
       <Header />
       <Home />
+      <About/>
       
-      <section id="about" className="min-vh-100 d-flex align-items-center bg-secondary text-white">
-        <Container>
-          <Row>
-            <Col>
-              <h2 className="display-4 fw-bold mb-4">About Me</h2>
-              <hr className="w-25 mb-4" />
-              <p className="lead">This is where you'll describe yourself.</p>
-            </Col>
-          </Row>
-        </Container>
-      </section>
       
       <section id="projects" className="min-vh-100 d-flex align-items-center bg-light">
         <Container>
