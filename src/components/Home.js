@@ -29,7 +29,7 @@ const Home = () => {
             <a href="https://www.linkedin.com/in/rithik-sai-295bbb256/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
                 <i className="bi bi-linkedin"></i>
             </a>
-            <a href="https://drive.google.com/file/d/1XtomA3ziSdAQUB6ouMe6pPxG-P_PRcfo/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
+            <a href="https://drive.google.com/file/d/1gUoyk-hCClz2-lDm5r3zsXXcCoTGGdm9/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
                 <i className="bi bi-file-earmark-text"></i>
             </a>
         </div>
