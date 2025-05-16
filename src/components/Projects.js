@@ -91,9 +91,9 @@ const Projects = () => {
       color: "#60a5fa" // Blue
     },
     {
-      title: "GhibliStyle.AI",
-      technologies: "React & Node.js",
-      description: "Full-stack web platform that transforms user photos into Ghibli-style artwork using AI and stores results in a database.",
+      title: "Skribbl.in - Real-Time Multiplayer Drawing & Guessing Game",
+      technologies: "React, Node.js, Socket.io, Express, Heroku, Vercel",
+      description: "Designed and implemented a full-stack multiplayer web game where users draw while others guess the word, featuring real-time canvas drawing, chat functionality, and a scoring system based on guess speed.",
       color: "#a78bfa" // Purple
     }
   ];

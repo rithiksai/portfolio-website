@@ -23,11 +23,14 @@ const Home = () => {
 
         {/* Social media links */}
         <div className="d-flex gap-3 mb-4">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
+            <a href="https://github.com/rithiksai" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
                 <i className="bi bi-github"></i>
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
+            <a href="https://www.linkedin.com/in/rithik-sai-295bbb256/" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
                 <i className="bi bi-linkedin"></i>
+            </a>
+            <a href="https://drive.google.com/file/d/1XtomA3ziSdAQUB6ouMe6pPxG-P_PRcfo/view?usp=sharing" target="_blank" rel="noopener noreferrer" style={{ color: 'white', fontSize: '2rem' }}>
+                <i className="bi bi-file-earmark-text"></i>
             </a>
         </div>
       </div>
