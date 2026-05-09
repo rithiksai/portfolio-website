@@ -17,14 +17,20 @@ const mono = JetBrains_Mono({
   display: 'swap',
 });
 
-const siteUrl = 'https://rithik-portfolio.vercel.app';
+const siteUrl = 'https://www.rithiksai.com';
 const title = 'Rithik Sai — Engineer Portfolio';
-const description = 'Engineer portfolio for Rithik Sai — AI, iOS, Swift, Metal, and on-device machine learning.';
+const description = 'Portfolio of Rithik Sai — AI Engineer, iOS Developer, and builder of AI products and workflow systems.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title,
   description,
+  applicationName: 'Rithik Sai — Engineer Portfolio',
+  manifest: '/manifest.json',
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/logo192.png',
+  },
   openGraph: {
     title,
     description,
