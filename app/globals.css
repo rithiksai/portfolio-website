@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ece8de;
+  --card: #e3dfd2;
+  --ink: #1c1916;
+  --sub: rgba(28, 25, 22, 0.55);
+  --rule: rgba(28, 25, 22, 0.16);
+  --accent: #d83a2a;
+  --accent-2: #1c1916;
+}
+
+.dark {
+  --bg: #16140f;
+  --card: #1f1c15;
+  --ink: #ece8de;
+  --sub: rgba(236, 232, 222, 0.6);
+  --rule: rgba(236, 232, 222, 0.14);
+  --accent: #f2c64b;
+  --accent-2: #e35e3a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+  body {
+    @apply bg-bg text-ink antialiased;
+  }
+
+  a {
+    @apply text-inherit;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-zen), sans-serif;
+  }
+
+  .font-mono {
+    font-family: var(--font-mono), monospace;
+  }
+
+  .border-ink {
+    border-color: var(--ink);
+  }
+
+  .bg-bg {
+    background-color: var(--bg);
+  }
+
+  .bg-card {
+    background-color: var(--card);
+  }
+
+  .bg-ink {
+    background-color: var(--ink);
+  }
+
+  .bg-accent {
+    background-color: var(--accent);
+  }
+
+  .text-ink {
+    color: var(--ink);
+  }
+
+  .text-bg {
+    color: var(--bg);
+  }
+
+  .text-sub {
+    color: var(--sub);
+  }
+
+  .text-accent {
+    color: var(--accent);
+  }
+
+  .border-rule {
+    border-color: var(--rule);
+  }
+
+  .animate-marquee-c {
+    animation: marqueeC 28s linear infinite;
+  }
+
+  .animate-pulse-c {
+    animation: pulseC 1.6s infinite;
+  }
+
+  .animate-inkfade {
+    animation: inkfade 1.1s ease-out forwards;
+  }
+}
+
+@keyframes marqueeC {
+  from { transform: translateX(0); }
+  to { transform: translateX(-33.333%); }
+}
+
+@keyframes pulseC {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.25; }
+}
+
+@keyframes inkfade {
+  from { opacity: 0.6; }
+  to { opacity: 0; transform: scale(0.3); }
+}
